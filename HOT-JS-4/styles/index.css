@@ -1,0 +1,97 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+  
+.navigation-bar ul {
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+.navigation-bar li {
+      list-style-type: none;
+      display: inline;
+  }
+  
+.navigation-bar li a {
+      color: black;
+      font-weight: bold;
+      font-size: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      padding-left: .5rem;
+      padding-right: .5rem;
+  }
+  
+.navigation-bar li a:hover {
+      color: white;
+      background: black;
+  }
+
+body{
+    width:100%;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+.flex-container > div {
+    
+    background-color: #f1f1f1;
+    margin: 1em;
+    text-align: center;
+}
+.button {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.125em;
+    margin: 1em;
+    cursor: pointer;
+    border-radius: 4px
+  }
+h1 {
+    margin-top: 1.25em;
+}
+h3 {
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    background: #fff;
+    font-weight: bold;
+  }
+
+@media only screen and (max-width: 760px) {
+	.flex-container > div {
+    
+        background-color: #f1f1f1;
+        width: 100%;
+        margin: 1em;
+        text-align: center;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: DodgerBlue;
+      }
+}
